@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+    <script defer src="../Js/client.js"></script>
+
+    <link rel="icon" href="../public/logo1.png">
+    <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+
+<body>
+
+    <div id="main">
+        
+        <nav id="nav">
+            <img class="logo" src="../public/logo1.png" alt="logo">
+            <h1>Welcome to iChat</h1>
+        </nav>
+        <div class="container">
+            <div id="nav1">
+                <button class="btn2">
+                    <img src="../public/search.png" alt="">
+                </button>
+                <button class="btn2">
+                    <img src="../public/threedots.png" alt="">
+                </button>
+                <div id="encrypt">
+                    <img src="../public/lock1.png" alt="">
+                    <p>Messages are end-to-end encrypted. No one outside of this chat, not even iChat can read or listen to them.</p>
+                </div>
+            </div>
+            
+            <div id="messagecontainer">
+<!-- 
+                <div class="message left">Satyam: Hi bro</div>
+                <div class="message right">Devansh: Hi, Aur kesa hai?</div> -->
+
+            </div>
+            <div id="send">
+                <form action="" id="send-container">
+                    <input type="text" name="messageinp" id="message-inp" placeholder="Type a message" autofocus>
+                    <button class="btn" type="submit">
+                        <img src="../public/send.png" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
